@@ -1,0 +1,15 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Screenshots or large files
+screenshots/
+
+# OS + Editor stuff
+.DS_Store
+.vscode/
+.idea/
+
