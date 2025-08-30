@@ -25,6 +25,6 @@ resource "aws_s3_bucket_lifecycle_configuration" "lifecycle_rule" {
       days = 365
     }
 
-    filter {}  # rule applies to all objects
+    filter {}  
   }
 }
